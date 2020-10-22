@@ -1,0 +1,17 @@
+{
+    "name": "blog",
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "generate": "nuxt generate",
+        "start": "nuxt start",
+        "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+        "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
+        "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    },
+    "dependencies": {
+        "@nuxt/content": "^1.10.0",
+        "nuxt": "^2.14.7",
+        "push-dir": "^0.4.1"
+    }
+}
