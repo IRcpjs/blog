@@ -1,0 +1,15 @@
+baseURL = "https://blog.izassan.net"
+languageCode = "ja-jp"
+title = "izassan's blog"
+
+theme = "m10c"
+
+[params]
+    author = "izassan"
+    description = "Hi! I'm izassan"
+#   avatar = "/image/izassan.jpg"
+    [[params.social]]
+        icon = "github"
+        name = "My Github"
+        url = "https://github.com/IRcpjs"
+
