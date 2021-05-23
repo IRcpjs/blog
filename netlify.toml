@@ -4,4 +4,4 @@
     HUGO_VERSION = "0.82.1"
 [build]
     publish = "public"
-    command = "hugo  --theme=m10c --gc --minify"
+    command = "hugo --theme=m10c --gc --minify"
