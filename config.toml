@@ -1,4 +1,4 @@
-baseURL = "https://dreamy-thompson-0ecc43.netlify.app"
+baseURL = "https://blog.izassan.net"
 languageCode = "ja-jp"
 title = "izassan's blog"
 
@@ -6,7 +6,7 @@ theme = "m10c"
 
 [params]
     author = "izassan"
-    description = "Hi! I'm izassan"
+    description = "under development"
 #   avatar = "/image/izassan.jpg"
     [[params.social]]
         icon = "github"
