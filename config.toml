@@ -10,6 +10,6 @@ theme = "m10c"
 #   avatar = "/image/izassan.jpg"
     [[params.social]]
         icon = "github"
-        name = "My Github"
+        name = "Izassan's Github"
         url = "https://github.com/IRcpjs"
 
