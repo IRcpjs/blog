@@ -4,6 +4,7 @@ title = "izassan's blog"
 
 theme = "m10c"
 
+
 [params]
     author = "izassan"
     description = "under development"
@@ -11,5 +12,27 @@ theme = "m10c"
     [[params.social]]
         icon = "github"
         name = "Izassan's Github"
-        url = "https://github.com/IRcpjs"
+        url = "https://github.com/izassan"
+        weight = 100
+    [[params.social]]
+        icon = "twitter"
+        name = "Izassan's Twitter"
+        url = "https://twitter.com/izassan_718"
+        weight = 110
 
+[menu]
+    [[menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 100
+    [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags"
+        weight = 110
+    [[menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact"
+        weight = 120
