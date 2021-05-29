@@ -1,14 +1,16 @@
 baseURL = "https://blog.izassan.net"
 languageCode = "ja-jp"
 title = "izassan's blog"
+copyright = "2021 izassan"
 
 theme = "m10c"
 
 
 [params]
     author = "izassan"
-    description = "under development"
+    description = "現在開発中"
     avatar = "/img/sns_avator.jpg"
+    menu_item_separator = " - "
     [[params.social]]
         icon = "github"
         name = "Izassan's Github"
@@ -27,12 +29,17 @@ theme = "m10c"
         url = "/"
         weight = 100
     [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+        weight = 110
+    [[menu.main]]
         identifier = "tags"
         name = "Tags"
         url = "/tags"
-        weight = 110
+        weight = 120
     [[menu.main]]
         identifier = "contact"
         name = "Contact"
         url = "/contact"
-        weight = 120
+        weight = 130
