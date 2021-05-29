@@ -8,7 +8,7 @@ theme = "m10c"
 [params]
     author = "izassan"
     description = "under development"
-#   avatar = "/image/izassan.jpg"
+    avatar = "/img/sns_avator.jpg"
     [[params.social]]
         icon = "github"
         name = "Izassan's Github"
